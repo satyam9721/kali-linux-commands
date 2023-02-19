@@ -1,0 +1,26 @@
+    if (prediction == "Sad"):
+        link = 'http://www.imdb.com/search/title?genres=drama&title_type=feature&sort=moviemeter, asc'
+        webbrowser.open(link)
+    # IMDb Url for Musical genre of
+    # movie against emotion Disgust
+    elif (prediction == "Neutral"):
+        link = 'http://www.imdb.com/search/title?genres=Neutral&title_type=feature&sort=moviemeter, asc'
+        webbrowser.open(link)
+    # IMDb Url for Family genre of
+    # movie against emotion Anger
+    elif (prediction == "Anger"):
+        link = 'http://www.imdb.com/search/title?genres=family&title_type=feature&sort=moviemeter, asc'
+        webbrowser.open(link)
+    # IMDb Url for Thriller genre of
+    # movie against emotion Anticipation
+    elif (prediction == "Surprise"):
+        link = 'http://www.imdb.com/search/title?genres=thriller&title_type=feature&sort=moviemeter, asc'
+        webbrowser.open(link)
+    # IMDb Url for Sport genre of
+    # movie against emotion Fear
+    elif (prediction == "Fear"):
+        link = 'http://www.imdb.com/search/title?genres=sport&title_type=feature&sort=moviemeter, asc'
+        webbrowser.open(link)
+    elif (prediction == "Happy"):
+        link = 'http://www.imdb.com/search/title?genres=sport&title_type=feature&sort=moviemeter, asc'
+        webbrowser.open(link)
